@@ -8,12 +8,12 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "3244057")
-    API_HASH = getenv("API_HASH", "b8a814ed15eada43bc8c86d89d7f7618")
-    TOKEN = getenv("TOKEN", "5530982980:AAFikeFIdiwef5QVxG0A5kX22iNKHJ4YhFc")
-    OWNER_ID = getenv("3244057")
-    STRING_SESSION = getenv("BQBLqQiw9-XpMHCa7LKoqDnzr_Rsh6tGKs49yBrigItZv1THjI1e65G8FZG6T4b8kSIOV4NsYfZNPZR_Is-JM8pG4cszzsqku83XCAx0ZjCd8C_fEuSHXmLeAi5A8_0fM285m5JjiBkiGczPH_kCgwkl7Oo8ck7qPhSPR_1hE4juwqGEskTSMlIDlc1-Xv0HN2cgIOfjYGdJeb8rb4q3Cj0jsCn03pZc_wYVJ0X0uiL9KCOGiBCyH5tLVKbg4L6OVbvWYz3Y4LuYVco2LlJRQya9_Phkkt0xENsx5AdaLUtJYCTQa1NUspYQ85yXXudBqPbMOITPN6cY8FJ2b8CKk67URLwAUAA", "")
-    OWNER_USERNAME = getenv("Aadarsh_Legend", "")
+    APP_ID = getenv("API_ID", "")
+    API_HASH = getenv("API_HASH", "")
+    TOKEN = getenv("TOKEN", "")
+    OWNER_ID = getenv("")
+    STRING_SESSION = getenv("", "")
+    OWNER_USERNAME = getenv(", "")
     DB_URI = getenv("DATABASE_URL", "")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
